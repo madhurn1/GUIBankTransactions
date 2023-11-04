@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox prefHeight="85.0" prefWidth="414.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="TransactionManagerController">
+    <TextField fx:id="inputField" prefHeight="82.0" prefWidth="414.0" promptText="Enter text" />
+    <Button onAction="#handleButtonClick" prefHeight="26.0" prefWidth="121.0" text="Open" />
+</VBox>
